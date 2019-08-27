@@ -12,7 +12,7 @@
 
 4. In there, clone the repo of my lectures:
 
-`git clone https://github.com/PHY407-UofT/lectures.git`
+`git clone https://github.com/utplanets/PHY407_2019F.git'
 
 * This should create a new folder called `lectures`, in which my lecture notes will be located.
 
