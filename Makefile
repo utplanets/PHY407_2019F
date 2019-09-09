@@ -1,5 +1,7 @@
-pdf:
-	jupyter nbconvert --to latex --template revtex.tplx ${SOURCE} --to pdf
+
+
+%.pdf: %.ipynb
+	jupyter nbconvert --to latex --template ../revtex.tplx $< --to pdf
 
 .PHONY: clean all 
 
